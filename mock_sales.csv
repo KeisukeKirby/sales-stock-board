@@ -1,0 +1,1082 @@
+Date,Product,Color,Size,Sales_Quantity,Sales_Amount
+2026-03-01,Shoes Model A,Blue,L,4,20000
+2026-03-01,Shoes Model A,Blue,M,3,36000
+2026-03-01,Sandals C,Blue,S,4,60000
+2026-03-01,Sandals C,White,S,2,30000
+2026-03-01,Shoes Model B,White,M,4,60000
+2026-03-01,Shoes Model A,Black,M,2,10000
+2026-03-01,Shoes Model A,Black,L,3,36000
+2026-03-01,Shoes Model B,Blue,M,2,24000
+2026-03-01,Shoes Model B,Blue,L,4,60000
+2026-03-01,Shoes Model A,Blue,S,3,36000
+2026-03-01,Shoes Model A,Black,L,2,30000
+2026-03-02,Shoes Model B,White,M,1,8000
+2026-03-02,Shoes Model A,White,L,4,48000
+2026-03-02,Shoes Model A,Blue,L,2,10000
+2026-03-02,Shoes Model B,White,M,2,16000
+2026-03-02,Shoes Model B,White,S,3,24000
+2026-03-02,Shoes Model B,White,M,2,30000
+2026-03-02,Shoes Model B,Blue,L,4,32000
+2026-03-02,Sandals C,Black,M,4,20000
+2026-03-02,Shoes Model A,White,L,1,15000
+2026-03-02,Shoes Model B,Black,S,1,5000
+2026-03-02,Sandals C,Black,S,1,12000
+2026-03-02,Shoes Model A,Black,L,3,36000
+2026-03-02,Shoes Model A,Blue,L,1,12000
+2026-03-03,Shoes Model B,Blue,M,1,15000
+2026-03-03,Sandals C,Black,M,1,15000
+2026-03-03,Sandals C,Blue,M,4,20000
+2026-03-03,Sandals C,White,L,3,15000
+2026-03-03,Sandals C,Black,L,2,24000
+2026-03-03,Shoes Model A,Black,M,3,36000
+2026-03-03,Shoes Model B,Blue,L,1,12000
+2026-03-03,Sandals C,White,M,4,20000
+2026-03-03,Sandals C,Blue,L,1,15000
+2026-03-04,Shoes Model B,Black,L,3,15000
+2026-03-04,Sandals C,Blue,S,4,20000
+2026-03-04,Sandals C,Blue,L,2,30000
+2026-03-04,Shoes Model B,White,S,2,10000
+2026-03-04,Shoes Model A,White,M,2,24000
+2026-03-04,Shoes Model B,Blue,S,3,24000
+2026-03-04,Shoes Model A,Black,S,3,24000
+2026-03-04,Shoes Model A,Black,S,3,36000
+2026-03-04,Shoes Model B,Blue,S,2,10000
+2026-03-04,Shoes Model A,Blue,M,4,60000
+2026-03-04,Sandals C,Blue,M,4,60000
+2026-03-04,Shoes Model A,Black,M,1,8000
+2026-03-04,Shoes Model B,Blue,M,3,15000
+2026-03-04,Shoes Model A,Black,S,3,15000
+2026-03-04,Shoes Model B,White,M,3,15000
+2026-03-04,Shoes Model A,Black,L,2,16000
+2026-03-04,Shoes Model A,White,M,4,48000
+2026-03-05,Sandals C,Blue,L,1,12000
+2026-03-05,Shoes Model B,Black,M,2,16000
+2026-03-05,Sandals C,Blue,S,1,15000
+2026-03-05,Sandals C,White,S,3,45000
+2026-03-05,Sandals C,Blue,M,3,36000
+2026-03-05,Sandals C,Blue,S,1,15000
+2026-03-05,Sandals C,White,S,3,45000
+2026-03-05,Shoes Model A,Black,M,3,36000
+2026-03-06,Shoes Model B,Blue,L,4,60000
+2026-03-06,Shoes Model B,Black,S,2,10000
+2026-03-06,Shoes Model B,Black,S,4,48000
+2026-03-06,Sandals C,Black,S,3,36000
+2026-03-06,Sandals C,White,S,4,60000
+2026-03-06,Sandals C,Black,M,4,60000
+2026-03-06,Shoes Model B,Blue,M,1,12000
+2026-03-06,Shoes Model A,Black,M,4,32000
+2026-03-06,Shoes Model B,White,M,3,45000
+2026-03-06,Shoes Model A,Black,S,4,20000
+2026-03-06,Shoes Model B,Black,L,3,15000
+2026-03-06,Shoes Model A,Blue,L,2,24000
+2026-03-06,Shoes Model B,White,M,2,16000
+2026-03-06,Shoes Model A,Blue,M,4,48000
+2026-03-06,Sandals C,White,S,2,10000
+2026-03-06,Sandals C,Black,S,4,20000
+2026-03-06,Sandals C,Blue,S,4,20000
+2026-03-06,Shoes Model B,Black,M,1,8000
+2026-03-07,Shoes Model A,Black,S,1,8000
+2026-03-07,Shoes Model A,Blue,L,4,20000
+2026-03-07,Sandals C,Black,S,4,48000
+2026-03-07,Shoes Model A,Blue,M,1,8000
+2026-03-07,Sandals C,White,M,3,45000
+2026-03-07,Shoes Model B,White,L,2,24000
+2026-03-07,Shoes Model B,Blue,L,2,16000
+2026-03-08,Shoes Model A,Black,S,3,24000
+2026-03-08,Sandals C,Black,M,3,24000
+2026-03-08,Sandals C,White,S,4,20000
+2026-03-08,Shoes Model B,Blue,S,4,20000
+2026-03-08,Shoes Model A,White,M,4,48000
+2026-03-08,Sandals C,Blue,M,2,30000
+2026-03-08,Sandals C,Blue,M,3,15000
+2026-03-08,Shoes Model B,Blue,M,1,8000
+2026-03-08,Shoes Model B,White,M,1,15000
+2026-03-08,Shoes Model B,White,L,2,24000
+2026-03-08,Shoes Model A,Black,S,4,60000
+2026-03-08,Shoes Model A,Blue,M,1,15000
+2026-03-08,Shoes Model B,Blue,L,3,45000
+2026-03-08,Shoes Model A,White,M,2,24000
+2026-03-09,Sandals C,Blue,M,3,24000
+2026-03-09,Shoes Model A,White,S,2,24000
+2026-03-09,Sandals C,Black,S,1,8000
+2026-03-09,Shoes Model B,Black,L,2,30000
+2026-03-09,Shoes Model B,White,S,4,20000
+2026-03-10,Shoes Model A,Black,L,4,48000
+2026-03-10,Shoes Model A,White,S,3,36000
+2026-03-10,Shoes Model B,Blue,S,2,10000
+2026-03-10,Shoes Model A,White,S,3,15000
+2026-03-10,Shoes Model B,White,M,4,20000
+2026-03-10,Shoes Model B,White,S,3,45000
+2026-03-10,Shoes Model A,White,M,1,12000
+2026-03-10,Shoes Model B,White,M,1,15000
+2026-03-10,Shoes Model B,Blue,M,2,24000
+2026-03-11,Shoes Model A,Black,S,4,60000
+2026-03-11,Sandals C,White,S,4,60000
+2026-03-11,Sandals C,White,L,4,20000
+2026-03-11,Shoes Model A,Black,L,3,15000
+2026-03-11,Sandals C,Black,S,4,32000
+2026-03-11,Sandals C,Black,S,4,48000
+2026-03-11,Shoes Model B,White,S,3,24000
+2026-03-11,Sandals C,Blue,S,2,30000
+2026-03-11,Shoes Model A,White,M,2,16000
+2026-03-11,Shoes Model B,Blue,S,3,45000
+2026-03-11,Shoes Model B,Black,M,1,12000
+2026-03-11,Shoes Model A,Black,S,1,5000
+2026-03-11,Shoes Model B,Black,S,4,60000
+2026-03-11,Sandals C,Black,L,4,60000
+2026-03-12,Shoes Model A,Blue,L,2,30000
+2026-03-12,Shoes Model A,Black,L,1,12000
+2026-03-12,Shoes Model A,Blue,S,2,10000
+2026-03-12,Shoes Model A,White,S,2,10000
+2026-03-12,Sandals C,Blue,S,4,60000
+2026-03-12,Shoes Model A,Black,L,4,20000
+2026-03-13,Shoes Model B,Blue,L,2,24000
+2026-03-13,Shoes Model A,Black,L,4,20000
+2026-03-13,Sandals C,Black,S,3,45000
+2026-03-13,Shoes Model A,Blue,S,1,8000
+2026-03-13,Shoes Model B,Blue,M,3,24000
+2026-03-13,Shoes Model A,Blue,L,1,12000
+2026-03-13,Sandals C,White,L,4,20000
+2026-03-13,Shoes Model B,White,S,1,8000
+2026-03-13,Sandals C,White,S,4,32000
+2026-03-13,Shoes Model A,White,L,2,16000
+2026-03-13,Shoes Model A,Black,S,2,24000
+2026-03-14,Shoes Model A,Black,M,4,20000
+2026-03-14,Sandals C,Blue,S,1,15000
+2026-03-14,Shoes Model B,Blue,L,1,15000
+2026-03-14,Shoes Model B,Blue,L,2,16000
+2026-03-14,Sandals C,Blue,M,3,15000
+2026-03-14,Shoes Model A,White,M,2,30000
+2026-03-14,Shoes Model A,Blue,S,3,15000
+2026-03-14,Sandals C,Black,M,1,12000
+2026-03-14,Shoes Model A,Black,S,2,10000
+2026-03-14,Shoes Model B,White,S,4,20000
+2026-03-14,Shoes Model A,Blue,S,4,32000
+2026-03-14,Shoes Model A,Blue,S,4,48000
+2026-03-15,Shoes Model A,White,L,1,5000
+2026-03-15,Shoes Model B,Blue,L,1,5000
+2026-03-15,Shoes Model B,White,L,4,48000
+2026-03-15,Shoes Model A,Blue,M,4,60000
+2026-03-15,Shoes Model B,Black,M,4,60000
+2026-03-15,Shoes Model B,White,M,4,60000
+2026-03-15,Shoes Model A,Black,L,2,24000
+2026-03-16,Shoes Model A,Black,S,4,20000
+2026-03-16,Shoes Model A,Black,M,3,15000
+2026-03-16,Shoes Model B,White,L,4,20000
+2026-03-16,Sandals C,Black,M,2,30000
+2026-03-16,Shoes Model B,White,L,1,5000
+2026-03-17,Shoes Model A,White,S,2,30000
+2026-03-17,Sandals C,Black,L,1,8000
+2026-03-17,Sandals C,Black,M,3,36000
+2026-03-17,Shoes Model A,Black,S,2,10000
+2026-03-17,Sandals C,Blue,S,1,15000
+2026-03-17,Sandals C,White,S,1,12000
+2026-03-17,Shoes Model A,White,L,1,12000
+2026-03-17,Shoes Model A,Black,S,2,16000
+2026-03-17,Sandals C,Black,S,2,10000
+2026-03-17,Shoes Model B,Black,L,1,5000
+2026-03-17,Shoes Model B,Black,S,4,60000
+2026-03-18,Sandals C,Blue,M,2,16000
+2026-03-18,Shoes Model B,White,L,3,24000
+2026-03-18,Shoes Model A,White,S,2,16000
+2026-03-18,Sandals C,Black,S,4,48000
+2026-03-18,Sandals C,Blue,L,1,5000
+2026-03-18,Shoes Model B,White,L,3,36000
+2026-03-19,Shoes Model B,White,M,2,16000
+2026-03-19,Shoes Model B,Blue,L,3,36000
+2026-03-19,Shoes Model B,Black,M,1,15000
+2026-03-19,Sandals C,White,L,2,24000
+2026-03-19,Shoes Model A,Black,S,4,32000
+2026-03-19,Shoes Model A,White,S,4,60000
+2026-03-19,Shoes Model A,White,M,1,8000
+2026-03-19,Shoes Model A,White,L,3,45000
+2026-03-19,Sandals C,Blue,L,1,12000
+2026-03-19,Sandals C,Blue,L,2,30000
+2026-03-20,Shoes Model A,Blue,L,3,15000
+2026-03-20,Shoes Model B,Black,M,3,36000
+2026-03-20,Shoes Model A,Black,M,4,32000
+2026-03-20,Shoes Model A,White,S,2,10000
+2026-03-20,Shoes Model A,Black,M,2,16000
+2026-03-20,Shoes Model A,White,M,1,12000
+2026-03-20,Shoes Model A,White,S,3,15000
+2026-03-20,Shoes Model B,Blue,M,3,36000
+2026-03-20,Shoes Model A,Black,M,4,20000
+2026-03-20,Shoes Model A,Blue,S,4,48000
+2026-03-20,Sandals C,Blue,M,2,16000
+2026-03-20,Sandals C,White,M,1,8000
+2026-03-21,Sandals C,Blue,L,3,36000
+2026-03-21,Sandals C,White,L,3,45000
+2026-03-21,Shoes Model A,White,M,2,24000
+2026-03-21,Sandals C,Blue,S,3,15000
+2026-03-21,Shoes Model B,Blue,S,1,12000
+2026-03-21,Shoes Model B,White,M,4,20000
+2026-03-21,Shoes Model A,Black,S,4,32000
+2026-03-21,Sandals C,Black,S,2,24000
+2026-03-21,Sandals C,White,M,3,45000
+2026-03-21,Shoes Model A,Blue,M,1,5000
+2026-03-21,Shoes Model B,White,M,3,45000
+2026-03-21,Sandals C,Black,M,1,5000
+2026-03-21,Shoes Model A,Black,M,1,8000
+2026-03-21,Shoes Model B,Blue,M,3,24000
+2026-03-21,Shoes Model B,White,L,4,48000
+2026-03-21,Shoes Model A,Blue,L,3,36000
+2026-03-21,Shoes Model A,Blue,M,2,30000
+2026-03-21,Sandals C,Blue,M,2,10000
+2026-03-22,Shoes Model B,Blue,M,1,8000
+2026-03-22,Sandals C,Blue,M,3,15000
+2026-03-22,Shoes Model A,White,M,2,30000
+2026-03-22,Sandals C,Black,S,4,48000
+2026-03-22,Shoes Model A,White,M,4,32000
+2026-03-22,Shoes Model A,White,L,3,45000
+2026-03-22,Shoes Model A,Blue,L,1,8000
+2026-03-22,Shoes Model B,White,S,3,24000
+2026-03-22,Shoes Model B,Black,M,4,20000
+2026-03-22,Sandals C,Black,S,1,5000
+2026-03-22,Sandals C,Blue,M,3,36000
+2026-03-22,Shoes Model B,Blue,S,1,8000
+2026-03-22,Shoes Model B,White,S,4,48000
+2026-03-22,Shoes Model A,White,L,3,15000
+2026-03-22,Shoes Model B,Black,L,1,5000
+2026-03-22,Shoes Model B,White,L,1,5000
+2026-03-22,Shoes Model A,Blue,L,2,16000
+2026-03-22,Shoes Model B,Black,S,2,10000
+2026-03-23,Sandals C,White,L,1,8000
+2026-03-23,Shoes Model A,Blue,L,3,15000
+2026-03-23,Shoes Model A,Black,S,3,36000
+2026-03-23,Shoes Model B,White,S,4,60000
+2026-03-23,Sandals C,Blue,L,2,16000
+2026-03-23,Sandals C,Blue,L,4,32000
+2026-03-24,Sandals C,Blue,S,1,15000
+2026-03-24,Shoes Model B,Blue,L,4,20000
+2026-03-24,Shoes Model B,Black,S,1,5000
+2026-03-24,Sandals C,Blue,S,2,30000
+2026-03-24,Shoes Model B,White,M,1,12000
+2026-03-24,Shoes Model B,Black,M,2,10000
+2026-03-24,Sandals C,Blue,S,4,60000
+2026-03-24,Sandals C,Black,S,1,12000
+2026-03-24,Shoes Model A,White,L,3,36000
+2026-03-24,Sandals C,White,L,3,15000
+2026-03-24,Sandals C,White,M,4,32000
+2026-03-24,Shoes Model B,Blue,L,2,16000
+2026-03-24,Sandals C,White,S,4,32000
+2026-03-24,Shoes Model B,Black,S,3,45000
+2026-03-24,Sandals C,Black,S,4,48000
+2026-03-24,Shoes Model B,Black,L,2,10000
+2026-03-24,Shoes Model B,Blue,S,2,30000
+2026-03-24,Shoes Model A,White,L,3,15000
+2026-03-24,Shoes Model B,Black,S,2,16000
+2026-03-24,Shoes Model B,Blue,S,1,12000
+2026-03-25,Sandals C,Blue,L,1,12000
+2026-03-25,Shoes Model A,Black,S,2,30000
+2026-03-25,Shoes Model A,Black,M,1,12000
+2026-03-25,Sandals C,Black,M,3,24000
+2026-03-25,Shoes Model B,Blue,M,3,24000
+2026-03-25,Sandals C,Black,L,3,45000
+2026-03-25,Sandals C,Blue,M,4,20000
+2026-03-25,Sandals C,White,S,4,20000
+2026-03-25,Shoes Model A,Black,L,3,24000
+2026-03-25,Shoes Model B,White,S,1,12000
+2026-03-26,Shoes Model A,Black,M,2,30000
+2026-03-26,Sandals C,Black,S,3,15000
+2026-03-26,Shoes Model A,White,L,3,36000
+2026-03-26,Sandals C,White,M,1,5000
+2026-03-26,Shoes Model A,Black,M,4,60000
+2026-03-27,Shoes Model B,Black,M,3,36000
+2026-03-27,Shoes Model B,White,M,4,20000
+2026-03-27,Shoes Model B,White,M,3,36000
+2026-03-27,Shoes Model A,Black,L,3,36000
+2026-03-27,Shoes Model B,White,L,2,16000
+2026-03-27,Shoes Model A,Blue,L,4,60000
+2026-03-27,Shoes Model B,Blue,S,4,20000
+2026-03-28,Sandals C,Blue,L,3,36000
+2026-03-28,Shoes Model A,White,S,3,15000
+2026-03-28,Sandals C,Blue,S,4,48000
+2026-03-28,Shoes Model B,Blue,M,4,60000
+2026-03-28,Shoes Model B,Blue,S,2,10000
+2026-03-28,Shoes Model B,Blue,L,4,32000
+2026-03-28,Sandals C,White,L,1,12000
+2026-03-28,Shoes Model A,Blue,S,3,45000
+2026-03-28,Shoes Model A,White,M,1,12000
+2026-03-28,Shoes Model A,Blue,M,3,24000
+2026-03-28,Sandals C,Blue,L,4,60000
+2026-03-28,Shoes Model A,Black,M,4,32000
+2026-03-28,Shoes Model A,White,S,4,48000
+2026-03-29,Shoes Model B,White,S,2,16000
+2026-03-29,Sandals C,White,L,4,60000
+2026-03-29,Shoes Model A,White,L,1,8000
+2026-03-29,Shoes Model A,White,S,1,12000
+2026-03-29,Shoes Model A,White,M,3,24000
+2026-03-29,Shoes Model B,White,S,1,8000
+2026-03-29,Sandals C,Black,L,2,16000
+2026-03-29,Shoes Model A,White,S,2,16000
+2026-03-30,Shoes Model A,Black,M,2,30000
+2026-03-30,Sandals C,Black,M,2,10000
+2026-03-30,Sandals C,Black,L,2,24000
+2026-03-30,Shoes Model B,Black,S,1,12000
+2026-03-30,Shoes Model B,Black,S,2,10000
+2026-03-31,Shoes Model B,White,M,4,32000
+2026-03-31,Shoes Model B,Blue,S,3,15000
+2026-03-31,Sandals C,White,S,1,12000
+2026-03-31,Sandals C,Black,L,3,45000
+2026-03-31,Sandals C,White,M,3,36000
+2026-03-31,Shoes Model B,White,S,4,20000
+2026-03-31,Shoes Model B,Blue,L,3,45000
+2026-03-31,Sandals C,Black,M,3,15000
+2026-03-31,Sandals C,White,S,2,16000
+2026-03-31,Shoes Model A,Black,S,4,20000
+2026-03-31,Shoes Model A,Black,S,3,45000
+2026-03-31,Shoes Model B,Black,L,3,36000
+2026-03-31,Shoes Model B,Black,L,2,16000
+2026-03-31,Shoes Model B,Blue,S,4,48000
+2026-03-31,Sandals C,Black,S,1,8000
+2026-03-31,Shoes Model A,Blue,S,3,45000
+2026-04-01,Sandals C,Blue,S,1,12000
+2026-04-01,Shoes Model A,White,M,4,20000
+2026-04-01,Shoes Model B,Black,L,3,24000
+2026-04-01,Shoes Model A,Black,M,3,45000
+2026-04-01,Shoes Model B,Blue,S,3,24000
+2026-04-01,Shoes Model A,White,M,3,24000
+2026-04-01,Sandals C,Black,L,1,12000
+2026-04-01,Shoes Model B,Blue,L,1,8000
+2026-04-01,Sandals C,White,L,3,24000
+2026-04-01,Sandals C,White,L,1,8000
+2026-04-01,Sandals C,Blue,S,2,24000
+2026-04-01,Shoes Model A,Blue,M,3,36000
+2026-04-01,Sandals C,Blue,S,4,20000
+2026-04-01,Shoes Model B,Black,S,2,10000
+2026-04-01,Shoes Model A,White,M,2,24000
+2026-04-01,Sandals C,White,M,2,24000
+2026-04-01,Sandals C,Black,S,2,30000
+2026-04-01,Sandals C,Blue,L,2,30000
+2026-04-02,Shoes Model B,Black,S,2,10000
+2026-04-02,Shoes Model A,Blue,S,2,16000
+2026-04-02,Shoes Model A,Blue,L,4,20000
+2026-04-02,Shoes Model A,White,S,3,15000
+2026-04-02,Shoes Model B,White,M,4,32000
+2026-04-02,Shoes Model B,Black,S,4,20000
+2026-04-02,Shoes Model A,White,L,1,12000
+2026-04-02,Shoes Model A,Black,L,2,10000
+2026-04-02,Shoes Model A,Black,L,4,32000
+2026-04-02,Sandals C,Blue,M,4,48000
+2026-04-02,Shoes Model B,Black,M,1,12000
+2026-04-02,Sandals C,Black,L,2,10000
+2026-04-02,Sandals C,Black,M,2,24000
+2026-04-02,Shoes Model B,Black,M,1,5000
+2026-04-02,Shoes Model B,Blue,M,1,5000
+2026-04-02,Shoes Model B,Blue,L,1,5000
+2026-04-02,Sandals C,White,S,1,12000
+2026-04-03,Sandals C,White,M,2,10000
+2026-04-03,Sandals C,Blue,M,1,15000
+2026-04-03,Shoes Model A,Blue,S,1,15000
+2026-04-03,Shoes Model B,Black,M,3,15000
+2026-04-03,Sandals C,Blue,S,1,12000
+2026-04-03,Shoes Model A,White,M,1,12000
+2026-04-03,Shoes Model A,Black,L,3,24000
+2026-04-03,Sandals C,White,L,1,15000
+2026-04-03,Shoes Model B,White,M,1,15000
+2026-04-03,Shoes Model A,Black,S,1,8000
+2026-04-03,Shoes Model A,White,S,3,24000
+2026-04-03,Sandals C,White,L,1,5000
+2026-04-03,Shoes Model A,White,L,4,60000
+2026-04-03,Shoes Model A,Blue,L,4,20000
+2026-04-04,Sandals C,Black,S,1,8000
+2026-04-04,Sandals C,Blue,M,4,48000
+2026-04-04,Shoes Model A,Blue,S,2,10000
+2026-04-04,Sandals C,Blue,L,2,16000
+2026-04-04,Sandals C,Black,M,3,36000
+2026-04-04,Shoes Model B,White,M,1,5000
+2026-04-04,Sandals C,White,S,2,24000
+2026-04-04,Shoes Model A,Black,S,4,48000
+2026-04-04,Shoes Model B,Black,L,4,32000
+2026-04-04,Sandals C,White,L,2,10000
+2026-04-04,Shoes Model B,Blue,L,2,10000
+2026-04-04,Shoes Model A,White,M,4,48000
+2026-04-04,Shoes Model A,White,S,2,16000
+2026-04-04,Shoes Model A,White,M,4,48000
+2026-04-04,Shoes Model B,White,M,4,48000
+2026-04-04,Shoes Model A,Blue,L,4,20000
+2026-04-04,Sandals C,Black,L,1,8000
+2026-04-05,Sandals C,Blue,L,2,24000
+2026-04-05,Shoes Model B,White,M,2,10000
+2026-04-05,Shoes Model A,Blue,S,1,12000
+2026-04-05,Sandals C,Blue,S,1,12000
+2026-04-05,Shoes Model B,Blue,M,4,32000
+2026-04-05,Sandals C,Blue,L,1,8000
+2026-04-05,Shoes Model A,Black,L,4,20000
+2026-04-05,Sandals C,White,L,1,5000
+2026-04-05,Sandals C,Blue,S,2,30000
+2026-04-05,Shoes Model B,Blue,M,1,12000
+2026-04-05,Shoes Model A,Black,M,3,45000
+2026-04-05,Sandals C,White,S,1,5000
+2026-04-05,Shoes Model A,Blue,L,2,16000
+2026-04-05,Sandals C,Blue,S,4,60000
+2026-04-05,Shoes Model A,White,L,4,32000
+2026-04-05,Sandals C,Black,M,2,24000
+2026-04-05,Shoes Model A,White,S,2,30000
+2026-04-05,Shoes Model A,Blue,M,2,10000
+2026-04-05,Shoes Model A,White,L,4,20000
+2026-04-06,Shoes Model A,White,M,4,32000
+2026-04-06,Shoes Model B,Blue,L,2,30000
+2026-04-06,Sandals C,Black,S,1,15000
+2026-04-06,Shoes Model B,Black,L,2,24000
+2026-04-06,Shoes Model A,Black,S,2,30000
+2026-04-07,Shoes Model B,White,S,2,30000
+2026-04-07,Shoes Model B,Black,M,1,5000
+2026-04-07,Shoes Model A,Black,M,1,5000
+2026-04-07,Shoes Model B,White,L,2,16000
+2026-04-07,Sandals C,White,M,2,16000
+2026-04-07,Sandals C,White,M,3,45000
+2026-04-07,Shoes Model A,Blue,S,3,36000
+2026-04-07,Shoes Model B,Black,M,1,12000
+2026-04-07,Sandals C,Black,M,4,60000
+2026-04-07,Shoes Model B,White,M,3,36000
+2026-04-07,Sandals C,Blue,L,4,60000
+2026-04-07,Shoes Model B,White,M,2,24000
+2026-04-07,Sandals C,Blue,S,4,32000
+2026-04-07,Shoes Model B,Blue,M,2,30000
+2026-04-07,Sandals C,Black,S,1,12000
+2026-04-07,Shoes Model B,Blue,L,2,30000
+2026-04-07,Shoes Model A,Black,L,1,12000
+2026-04-07,Sandals C,White,M,2,24000
+2026-04-07,Shoes Model B,Black,S,3,36000
+2026-04-08,Shoes Model B,Blue,L,1,5000
+2026-04-08,Shoes Model B,Blue,L,1,12000
+2026-04-08,Shoes Model A,White,S,3,24000
+2026-04-08,Shoes Model A,Black,M,4,60000
+2026-04-08,Shoes Model B,Black,L,4,20000
+2026-04-08,Shoes Model B,Black,M,4,60000
+2026-04-08,Shoes Model B,Blue,M,4,32000
+2026-04-08,Sandals C,White,L,3,24000
+2026-04-08,Shoes Model B,Black,L,1,8000
+2026-04-08,Shoes Model A,Blue,S,3,24000
+2026-04-08,Shoes Model B,Blue,M,4,32000
+2026-04-08,Shoes Model B,White,L,1,5000
+2026-04-08,Shoes Model B,Black,S,2,16000
+2026-04-08,Shoes Model A,Blue,M,4,48000
+2026-04-08,Shoes Model A,White,L,2,10000
+2026-04-08,Sandals C,Black,S,4,32000
+2026-04-09,Shoes Model A,Black,L,1,15000
+2026-04-09,Shoes Model A,Blue,L,3,36000
+2026-04-09,Shoes Model B,Blue,M,2,30000
+2026-04-09,Shoes Model B,Black,M,4,32000
+2026-04-09,Shoes Model A,Black,S,4,60000
+2026-04-09,Sandals C,Black,S,4,32000
+2026-04-09,Shoes Model A,Blue,S,3,15000
+2026-04-10,Shoes Model A,Black,S,4,60000
+2026-04-10,Sandals C,Blue,M,4,48000
+2026-04-10,Shoes Model A,White,M,2,10000
+2026-04-10,Sandals C,Black,M,1,5000
+2026-04-10,Sandals C,Blue,M,1,5000
+2026-04-10,Sandals C,Black,S,1,12000
+2026-04-10,Shoes Model B,White,S,2,30000
+2026-04-10,Sandals C,Blue,M,2,10000
+2026-04-10,Shoes Model B,Black,S,3,36000
+2026-04-10,Sandals C,Blue,M,3,45000
+2026-04-10,Shoes Model B,Blue,M,1,15000
+2026-04-10,Shoes Model B,White,L,4,32000
+2026-04-10,Shoes Model A,Black,L,4,20000
+2026-04-10,Shoes Model B,Black,L,2,24000
+2026-04-10,Shoes Model B,Black,L,3,24000
+2026-04-10,Sandals C,White,M,2,16000
+2026-04-11,Shoes Model B,Blue,S,4,48000
+2026-04-11,Shoes Model A,White,S,1,12000
+2026-04-11,Sandals C,White,S,4,20000
+2026-04-11,Shoes Model A,White,M,4,32000
+2026-04-11,Shoes Model B,White,L,1,5000
+2026-04-12,Shoes Model A,Black,S,1,5000
+2026-04-12,Sandals C,Black,L,4,32000
+2026-04-12,Shoes Model A,White,M,4,32000
+2026-04-12,Sandals C,White,M,2,10000
+2026-04-12,Shoes Model A,Blue,L,1,12000
+2026-04-12,Shoes Model A,White,M,3,15000
+2026-04-12,Shoes Model A,Blue,S,4,32000
+2026-04-12,Sandals C,Blue,S,3,45000
+2026-04-12,Shoes Model A,Black,S,1,15000
+2026-04-12,Shoes Model A,Blue,M,2,24000
+2026-04-12,Sandals C,White,M,2,16000
+2026-04-12,Shoes Model B,Black,L,1,8000
+2026-04-12,Shoes Model B,White,S,1,8000
+2026-04-13,Shoes Model A,White,S,3,45000
+2026-04-13,Sandals C,Blue,L,2,16000
+2026-04-13,Shoes Model B,Blue,L,1,5000
+2026-04-13,Sandals C,Blue,L,4,48000
+2026-04-13,Shoes Model A,Blue,S,4,48000
+2026-04-13,Sandals C,Blue,S,1,8000
+2026-04-13,Sandals C,White,M,1,15000
+2026-04-13,Shoes Model A,White,L,1,12000
+2026-04-13,Sandals C,White,M,2,16000
+2026-04-13,Shoes Model A,Black,M,1,8000
+2026-04-13,Sandals C,Blue,L,4,32000
+2026-04-13,Sandals C,Black,L,3,36000
+2026-04-13,Shoes Model A,White,S,2,30000
+2026-04-14,Shoes Model B,Blue,M,1,15000
+2026-04-14,Shoes Model A,White,L,3,15000
+2026-04-14,Sandals C,White,M,1,8000
+2026-04-14,Shoes Model A,White,S,3,24000
+2026-04-14,Shoes Model B,Black,S,2,30000
+2026-04-14,Shoes Model A,White,L,1,15000
+2026-04-14,Shoes Model B,Blue,L,2,10000
+2026-04-14,Shoes Model B,Blue,M,1,12000
+2026-04-15,Shoes Model A,Blue,S,3,45000
+2026-04-15,Shoes Model B,Black,L,1,5000
+2026-04-15,Shoes Model B,Black,L,3,45000
+2026-04-15,Sandals C,Blue,M,1,8000
+2026-04-15,Shoes Model A,Black,S,2,10000
+2026-04-15,Shoes Model B,Blue,L,1,8000
+2026-04-16,Shoes Model B,White,S,3,15000
+2026-04-16,Shoes Model A,Blue,L,4,60000
+2026-04-16,Shoes Model B,Blue,M,2,16000
+2026-04-16,Sandals C,Black,M,4,60000
+2026-04-16,Shoes Model A,Black,L,1,15000
+2026-04-16,Shoes Model A,Blue,M,1,12000
+2026-04-16,Shoes Model A,Black,M,4,20000
+2026-04-17,Sandals C,Black,M,4,32000
+2026-04-17,Sandals C,White,S,2,24000
+2026-04-17,Shoes Model B,White,M,3,45000
+2026-04-17,Shoes Model B,White,S,3,24000
+2026-04-17,Sandals C,White,M,4,32000
+2026-04-17,Shoes Model A,Black,S,3,36000
+2026-04-17,Shoes Model A,Blue,M,2,16000
+2026-04-17,Shoes Model A,Blue,S,4,60000
+2026-04-17,Sandals C,White,S,3,45000
+2026-04-17,Sandals C,White,S,4,60000
+2026-04-17,Shoes Model A,Black,M,1,15000
+2026-04-17,Shoes Model B,White,M,4,48000
+2026-04-17,Shoes Model A,Black,M,4,32000
+2026-04-17,Shoes Model A,White,S,3,24000
+2026-04-17,Shoes Model A,White,S,1,8000
+2026-04-17,Sandals C,Black,S,1,12000
+2026-04-18,Shoes Model B,Blue,M,4,32000
+2026-04-18,Sandals C,White,L,2,24000
+2026-04-18,Sandals C,White,S,4,32000
+2026-04-18,Sandals C,Black,M,2,16000
+2026-04-18,Shoes Model A,Blue,M,4,32000
+2026-04-18,Shoes Model B,White,M,3,45000
+2026-04-18,Sandals C,White,S,3,15000
+2026-04-19,Shoes Model B,Blue,M,3,24000
+2026-04-19,Shoes Model B,White,M,1,8000
+2026-04-19,Shoes Model A,Black,M,1,15000
+2026-04-19,Sandals C,White,S,2,30000
+2026-04-19,Shoes Model B,White,S,4,48000
+2026-04-19,Sandals C,Black,M,1,5000
+2026-04-19,Shoes Model A,White,S,2,30000
+2026-04-20,Sandals C,Black,S,3,24000
+2026-04-20,Shoes Model B,Black,L,2,30000
+2026-04-20,Shoes Model A,Blue,M,2,30000
+2026-04-20,Sandals C,Blue,L,3,15000
+2026-04-20,Sandals C,White,M,1,8000
+2026-04-20,Shoes Model B,Blue,M,1,12000
+2026-04-20,Sandals C,Black,L,3,15000
+2026-04-20,Sandals C,Black,S,4,32000
+2026-04-20,Shoes Model B,Blue,L,4,60000
+2026-04-20,Shoes Model A,Blue,S,1,12000
+2026-04-20,Shoes Model A,White,L,2,24000
+2026-04-20,Shoes Model A,Blue,M,4,20000
+2026-04-20,Sandals C,Blue,L,4,32000
+2026-04-21,Sandals C,Black,S,2,10000
+2026-04-21,Shoes Model B,Blue,M,2,24000
+2026-04-21,Shoes Model A,White,M,3,15000
+2026-04-21,Shoes Model B,Blue,M,4,48000
+2026-04-21,Shoes Model A,Black,S,1,8000
+2026-04-21,Shoes Model B,Black,S,1,8000
+2026-04-21,Shoes Model A,Black,S,3,15000
+2026-04-21,Sandals C,Blue,S,4,60000
+2026-04-21,Sandals C,Black,M,2,30000
+2026-04-21,Shoes Model B,White,L,1,5000
+2026-04-21,Shoes Model A,White,M,1,8000
+2026-04-21,Shoes Model A,Black,S,4,20000
+2026-04-21,Shoes Model A,Black,S,2,30000
+2026-04-21,Shoes Model A,Black,M,2,16000
+2026-04-21,Shoes Model A,Blue,L,2,30000
+2026-04-21,Sandals C,White,S,3,15000
+2026-04-21,Sandals C,Black,L,1,15000
+2026-04-21,Shoes Model A,Blue,S,4,20000
+2026-04-22,Shoes Model A,Blue,L,1,5000
+2026-04-22,Sandals C,Blue,S,1,15000
+2026-04-22,Shoes Model A,White,L,2,30000
+2026-04-22,Sandals C,Blue,L,3,36000
+2026-04-22,Sandals C,Blue,M,1,5000
+2026-04-22,Shoes Model B,White,M,2,24000
+2026-04-22,Shoes Model A,Blue,S,1,8000
+2026-04-22,Sandals C,White,L,1,15000
+2026-04-22,Shoes Model B,White,S,1,5000
+2026-04-22,Shoes Model B,Blue,M,3,24000
+2026-04-22,Shoes Model B,Black,L,4,32000
+2026-04-22,Shoes Model B,Black,S,4,48000
+2026-04-23,Shoes Model B,Blue,M,3,15000
+2026-04-23,Shoes Model B,Blue,S,1,15000
+2026-04-23,Sandals C,White,M,1,8000
+2026-04-23,Shoes Model B,White,S,4,60000
+2026-04-23,Sandals C,White,S,4,20000
+2026-04-23,Sandals C,White,M,3,36000
+2026-04-23,Shoes Model A,Black,L,2,10000
+2026-04-23,Shoes Model A,White,S,2,30000
+2026-04-23,Shoes Model B,White,L,3,45000
+2026-04-23,Sandals C,White,M,3,15000
+2026-04-23,Shoes Model B,Black,S,2,16000
+2026-04-23,Shoes Model A,Black,L,4,48000
+2026-04-23,Shoes Model B,Blue,L,3,36000
+2026-04-23,Shoes Model A,White,L,1,5000
+2026-04-23,Shoes Model A,Blue,L,2,24000
+2026-04-23,Sandals C,Black,M,3,45000
+2026-04-23,Sandals C,Black,S,3,45000
+2026-04-23,Shoes Model B,White,S,4,20000
+2026-04-23,Sandals C,Black,L,4,60000
+2026-04-23,Shoes Model B,White,L,1,8000
+2026-04-24,Shoes Model B,Blue,L,3,24000
+2026-04-24,Shoes Model A,Black,S,4,60000
+2026-04-24,Shoes Model B,White,M,2,16000
+2026-04-24,Shoes Model A,White,M,1,8000
+2026-04-24,Shoes Model A,Black,L,4,48000
+2026-04-24,Sandals C,Blue,M,4,48000
+2026-04-24,Shoes Model A,White,L,1,15000
+2026-04-24,Shoes Model B,White,L,2,10000
+2026-04-24,Shoes Model B,Black,M,4,48000
+2026-04-25,Shoes Model B,White,M,4,60000
+2026-04-25,Shoes Model A,Black,S,3,36000
+2026-04-25,Shoes Model A,White,L,4,20000
+2026-04-25,Shoes Model B,Blue,M,4,32000
+2026-04-25,Shoes Model B,White,L,3,45000
+2026-04-25,Sandals C,Black,L,2,24000
+2026-04-25,Shoes Model B,Black,M,2,16000
+2026-04-25,Shoes Model A,Blue,L,4,20000
+2026-04-25,Shoes Model B,Blue,S,3,15000
+2026-04-26,Sandals C,Black,L,4,48000
+2026-04-26,Sandals C,Blue,S,4,32000
+2026-04-26,Shoes Model A,Black,S,2,30000
+2026-04-26,Sandals C,Blue,L,2,24000
+2026-04-26,Shoes Model B,Blue,L,1,8000
+2026-04-26,Shoes Model A,Black,S,2,16000
+2026-04-27,Shoes Model A,Blue,S,2,16000
+2026-04-27,Shoes Model B,Black,M,1,12000
+2026-04-27,Shoes Model A,Blue,S,3,24000
+2026-04-27,Sandals C,White,M,3,15000
+2026-04-27,Shoes Model A,Black,S,1,8000
+2026-04-27,Shoes Model A,White,M,4,32000
+2026-04-27,Sandals C,Blue,M,3,15000
+2026-04-28,Shoes Model A,White,S,2,16000
+2026-04-28,Shoes Model A,Blue,S,4,20000
+2026-04-28,Shoes Model B,White,M,2,30000
+2026-04-28,Sandals C,Blue,L,4,32000
+2026-04-28,Shoes Model B,White,L,2,10000
+2026-04-28,Shoes Model A,White,S,1,15000
+2026-04-28,Sandals C,White,M,3,15000
+2026-04-28,Shoes Model A,White,S,3,36000
+2026-04-28,Shoes Model B,Blue,L,2,30000
+2026-04-28,Sandals C,Blue,L,1,8000
+2026-04-28,Shoes Model B,White,S,1,8000
+2026-04-28,Shoes Model A,White,S,3,36000
+2026-04-29,Shoes Model A,Black,L,3,15000
+2026-04-29,Shoes Model A,Black,S,1,5000
+2026-04-29,Shoes Model B,Black,L,2,10000
+2026-04-29,Sandals C,White,L,1,5000
+2026-04-29,Shoes Model A,Black,M,4,32000
+2026-04-29,Sandals C,Black,L,2,10000
+2026-04-29,Shoes Model A,White,M,2,16000
+2026-04-29,Shoes Model B,Black,M,1,5000
+2026-04-29,Shoes Model B,White,S,2,16000
+2026-04-29,Shoes Model B,Blue,S,3,24000
+2026-04-29,Sandals C,White,L,2,24000
+2026-04-29,Sandals C,Blue,S,4,60000
+2026-04-29,Sandals C,Black,M,3,45000
+2026-04-29,Shoes Model B,White,L,4,60000
+2026-04-30,Sandals C,White,M,3,15000
+2026-04-30,Shoes Model A,White,M,1,12000
+2026-04-30,Shoes Model B,Black,M,3,45000
+2026-04-30,Shoes Model A,White,L,2,24000
+2026-04-30,Sandals C,Black,L,2,24000
+2026-04-30,Sandals C,Black,L,3,45000
+2026-04-30,Shoes Model B,Black,S,1,15000
+2026-04-30,Sandals C,Black,L,3,45000
+2026-04-30,Shoes Model B,White,M,4,60000
+2026-05-01,Shoes Model B,Blue,L,1,12000
+2026-05-01,Sandals C,White,L,4,32000
+2026-05-01,Shoes Model A,Black,L,4,60000
+2026-05-01,Shoes Model A,Blue,S,4,32000
+2026-05-01,Shoes Model B,White,M,3,45000
+2026-05-01,Shoes Model A,Blue,M,3,45000
+2026-05-01,Shoes Model A,Blue,S,3,15000
+2026-05-01,Shoes Model A,White,S,2,30000
+2026-05-01,Shoes Model B,White,L,3,36000
+2026-05-01,Sandals C,Black,S,3,15000
+2026-05-02,Shoes Model A,White,M,2,16000
+2026-05-02,Shoes Model A,Blue,S,4,20000
+2026-05-02,Shoes Model A,White,M,2,24000
+2026-05-02,Shoes Model A,Blue,M,3,45000
+2026-05-02,Shoes Model A,Black,M,2,24000
+2026-05-02,Shoes Model B,White,S,4,60000
+2026-05-02,Shoes Model B,White,S,1,12000
+2026-05-02,Shoes Model B,Black,L,3,24000
+2026-05-03,Sandals C,Black,L,4,60000
+2026-05-03,Shoes Model B,Black,S,4,48000
+2026-05-03,Shoes Model B,Blue,L,3,15000
+2026-05-03,Shoes Model A,White,M,3,45000
+2026-05-03,Sandals C,Blue,M,1,15000
+2026-05-03,Shoes Model A,Blue,L,4,48000
+2026-05-03,Sandals C,White,S,3,24000
+2026-05-03,Sandals C,Blue,S,3,15000
+2026-05-03,Shoes Model A,Black,M,4,32000
+2026-05-03,Shoes Model A,Blue,S,3,45000
+2026-05-03,Shoes Model A,Blue,M,3,15000
+2026-05-03,Shoes Model B,Blue,L,3,36000
+2026-05-03,Sandals C,White,M,2,16000
+2026-05-03,Shoes Model A,White,L,3,24000
+2026-05-04,Shoes Model B,Blue,S,1,15000
+2026-05-04,Shoes Model B,White,M,3,24000
+2026-05-04,Shoes Model A,Blue,M,3,36000
+2026-05-04,Shoes Model B,Blue,S,4,60000
+2026-05-04,Shoes Model A,Blue,M,3,15000
+2026-05-04,Sandals C,Blue,S,4,48000
+2026-05-04,Sandals C,White,M,1,5000
+2026-05-04,Shoes Model A,White,S,4,20000
+2026-05-04,Shoes Model A,White,L,1,12000
+2026-05-04,Shoes Model A,Blue,M,2,10000
+2026-05-04,Sandals C,White,S,1,8000
+2026-05-04,Shoes Model B,Black,L,3,36000
+2026-05-04,Shoes Model A,White,S,4,32000
+2026-05-04,Sandals C,Blue,M,2,10000
+2026-05-04,Sandals C,Black,S,4,60000
+2026-05-04,Shoes Model A,Blue,S,1,5000
+2026-05-04,Shoes Model A,Black,S,4,48000
+2026-05-04,Shoes Model A,White,S,4,20000
+2026-05-04,Sandals C,Blue,M,4,32000
+2026-05-05,Sandals C,Black,L,2,30000
+2026-05-05,Shoes Model A,White,S,3,24000
+2026-05-05,Shoes Model A,Black,L,4,48000
+2026-05-05,Sandals C,White,S,3,24000
+2026-05-05,Shoes Model B,White,L,3,15000
+2026-05-05,Shoes Model A,Blue,M,2,16000
+2026-05-05,Shoes Model A,White,S,1,15000
+2026-05-05,Shoes Model B,White,L,4,48000
+2026-05-05,Shoes Model B,Black,S,1,5000
+2026-05-05,Shoes Model A,Blue,M,3,45000
+2026-05-05,Shoes Model A,Black,S,1,8000
+2026-05-05,Shoes Model A,White,S,2,30000
+2026-05-05,Sandals C,Black,M,3,15000
+2026-05-05,Shoes Model A,Black,M,2,24000
+2026-05-05,Shoes Model B,White,S,1,15000
+2026-05-05,Shoes Model A,Black,S,1,15000
+2026-05-05,Shoes Model A,Blue,L,3,36000
+2026-05-05,Shoes Model A,Blue,S,4,48000
+2026-05-05,Shoes Model B,Blue,L,1,12000
+2026-05-06,Shoes Model A,Black,L,4,60000
+2026-05-06,Shoes Model A,Black,S,4,20000
+2026-05-06,Shoes Model A,Black,M,3,45000
+2026-05-06,Shoes Model B,Black,S,3,24000
+2026-05-06,Sandals C,White,S,3,36000
+2026-05-06,Shoes Model A,Blue,M,2,16000
+2026-05-06,Shoes Model B,Black,L,4,32000
+2026-05-06,Shoes Model A,Blue,L,4,60000
+2026-05-06,Shoes Model A,Black,M,3,36000
+2026-05-06,Shoes Model A,Blue,M,3,15000
+2026-05-06,Shoes Model A,White,M,3,36000
+2026-05-06,Shoes Model A,White,M,2,24000
+2026-05-06,Shoes Model B,Black,S,3,45000
+2026-05-06,Sandals C,White,L,1,8000
+2026-05-06,Shoes Model A,White,L,4,32000
+2026-05-06,Shoes Model B,Black,S,2,30000
+2026-05-06,Sandals C,Blue,S,3,15000
+2026-05-06,Sandals C,White,S,1,8000
+2026-05-07,Sandals C,Blue,S,3,45000
+2026-05-07,Shoes Model A,White,S,2,24000
+2026-05-07,Shoes Model B,Blue,S,3,15000
+2026-05-07,Shoes Model A,White,M,2,30000
+2026-05-07,Shoes Model B,Blue,L,4,60000
+2026-05-08,Shoes Model A,Blue,L,4,48000
+2026-05-08,Shoes Model B,Blue,S,2,30000
+2026-05-08,Shoes Model A,Blue,M,4,60000
+2026-05-08,Shoes Model A,Blue,S,4,20000
+2026-05-08,Shoes Model A,Blue,L,1,8000
+2026-05-08,Shoes Model B,Blue,L,3,36000
+2026-05-08,Sandals C,White,L,1,5000
+2026-05-08,Shoes Model B,Black,M,4,60000
+2026-05-08,Shoes Model B,Black,L,4,20000
+2026-05-08,Shoes Model A,White,S,2,30000
+2026-05-08,Sandals C,Blue,L,1,15000
+2026-05-08,Shoes Model B,Blue,M,2,24000
+2026-05-08,Sandals C,White,L,2,16000
+2026-05-08,Sandals C,Black,L,1,8000
+2026-05-08,Shoes Model B,Black,M,1,5000
+2026-05-08,Shoes Model B,Black,L,3,24000
+2026-05-08,Shoes Model B,Black,S,1,5000
+2026-05-08,Sandals C,Blue,M,4,20000
+2026-05-08,Shoes Model A,White,S,1,5000
+2026-05-09,Shoes Model A,White,S,2,10000
+2026-05-09,Sandals C,Blue,L,3,24000
+2026-05-09,Shoes Model B,Black,L,2,10000
+2026-05-09,Shoes Model A,White,L,4,20000
+2026-05-09,Sandals C,Blue,L,1,15000
+2026-05-10,Shoes Model A,Blue,S,3,24000
+2026-05-10,Sandals C,Blue,S,1,12000
+2026-05-10,Shoes Model B,White,S,4,32000
+2026-05-10,Sandals C,Black,L,1,15000
+2026-05-10,Shoes Model A,Black,S,4,32000
+2026-05-10,Sandals C,Blue,L,1,8000
+2026-05-10,Sandals C,White,S,3,45000
+2026-05-10,Shoes Model B,Black,M,3,36000
+2026-05-10,Shoes Model A,Black,S,2,16000
+2026-05-10,Shoes Model B,Black,L,3,24000
+2026-05-10,Shoes Model B,Blue,L,2,30000
+2026-05-10,Shoes Model B,Blue,S,2,30000
+2026-05-10,Sandals C,Blue,L,3,45000
+2026-05-10,Shoes Model A,Blue,M,1,12000
+2026-05-10,Shoes Model A,White,L,2,30000
+2026-05-10,Sandals C,Blue,L,3,45000
+2026-05-10,Sandals C,Black,L,4,48000
+2026-05-10,Shoes Model A,Black,S,1,5000
+2026-05-10,Shoes Model A,Blue,L,2,24000
+2026-05-11,Shoes Model A,Black,L,2,10000
+2026-05-11,Sandals C,Blue,M,4,32000
+2026-05-11,Shoes Model A,White,L,3,24000
+2026-05-11,Shoes Model B,White,M,1,15000
+2026-05-11,Shoes Model B,Black,L,4,32000
+2026-05-11,Shoes Model A,White,L,3,36000
+2026-05-11,Shoes Model B,White,S,4,48000
+2026-05-11,Shoes Model B,Blue,L,1,15000
+2026-05-11,Shoes Model A,Black,S,3,15000
+2026-05-11,Shoes Model A,Black,S,3,15000
+2026-05-11,Sandals C,White,L,4,48000
+2026-05-11,Shoes Model A,White,M,2,30000
+2026-05-11,Shoes Model B,Blue,M,3,36000
+2026-05-11,Sandals C,White,S,1,15000
+2026-05-11,Shoes Model B,Black,S,3,36000
+2026-05-12,Shoes Model B,Black,L,2,16000
+2026-05-12,Shoes Model B,White,M,2,10000
+2026-05-12,Sandals C,Blue,M,3,36000
+2026-05-12,Sandals C,White,M,3,36000
+2026-05-12,Shoes Model B,Black,L,1,12000
+2026-05-12,Shoes Model A,Black,S,2,10000
+2026-05-12,Shoes Model A,Black,L,1,12000
+2026-05-12,Shoes Model A,Black,M,3,15000
+2026-05-12,Sandals C,Blue,M,2,16000
+2026-05-12,Shoes Model B,White,M,2,30000
+2026-05-13,Shoes Model A,Blue,M,2,24000
+2026-05-13,Shoes Model A,Blue,L,4,32000
+2026-05-13,Sandals C,Blue,M,2,16000
+2026-05-13,Shoes Model B,Blue,L,1,15000
+2026-05-13,Shoes Model A,Blue,S,3,15000
+2026-05-13,Shoes Model B,Black,M,2,30000
+2026-05-13,Shoes Model B,White,S,3,45000
+2026-05-13,Shoes Model B,Black,M,1,15000
+2026-05-13,Shoes Model A,Black,L,1,5000
+2026-05-13,Sandals C,Blue,S,3,24000
+2026-05-13,Shoes Model B,Blue,L,1,12000
+2026-05-13,Shoes Model A,White,L,1,5000
+2026-05-13,Shoes Model B,Blue,M,1,5000
+2026-05-13,Sandals C,Black,L,2,24000
+2026-05-13,Sandals C,Black,S,3,15000
+2026-05-13,Shoes Model A,Black,L,1,15000
+2026-05-13,Sandals C,Black,M,1,5000
+2026-05-13,Sandals C,Blue,S,2,10000
+2026-05-14,Shoes Model B,Blue,S,3,36000
+2026-05-14,Shoes Model B,White,L,4,20000
+2026-05-14,Sandals C,Black,S,2,10000
+2026-05-14,Shoes Model A,Blue,M,4,20000
+2026-05-14,Shoes Model A,White,L,2,30000
+2026-05-14,Shoes Model B,Black,S,3,15000
+2026-05-14,Shoes Model A,White,S,4,60000
+2026-05-14,Sandals C,White,L,4,32000
+2026-05-14,Shoes Model A,White,M,1,15000
+2026-05-15,Sandals C,Blue,S,1,5000
+2026-05-15,Shoes Model B,White,M,1,15000
+2026-05-15,Sandals C,Black,M,2,10000
+2026-05-15,Shoes Model A,White,M,2,10000
+2026-05-15,Shoes Model B,White,L,1,12000
+2026-05-15,Sandals C,White,S,4,32000
+2026-05-15,Shoes Model A,Blue,S,4,32000
+2026-05-15,Shoes Model B,White,S,4,48000
+2026-05-15,Sandals C,Black,M,4,48000
+2026-05-16,Shoes Model A,White,L,3,24000
+2026-05-16,Shoes Model A,White,S,2,24000
+2026-05-16,Shoes Model A,Black,S,3,24000
+2026-05-16,Sandals C,Black,M,4,60000
+2026-05-16,Sandals C,Black,S,3,45000
+2026-05-16,Sandals C,Blue,S,4,48000
+2026-05-16,Shoes Model A,Blue,S,4,60000
+2026-05-16,Shoes Model A,White,L,4,60000
+2026-05-16,Sandals C,Black,S,1,8000
+2026-05-16,Shoes Model B,Black,L,4,48000
+2026-05-17,Shoes Model B,White,S,3,15000
+2026-05-17,Shoes Model B,Blue,L,4,60000
+2026-05-17,Shoes Model B,Black,S,3,24000
+2026-05-17,Sandals C,White,S,2,10000
+2026-05-17,Shoes Model B,Blue,S,3,36000
+2026-05-17,Shoes Model A,Black,L,3,45000
+2026-05-17,Sandals C,Blue,S,1,12000
+2026-05-17,Shoes Model B,White,S,3,36000
+2026-05-17,Shoes Model A,White,M,2,10000
+2026-05-17,Shoes Model B,Black,S,3,45000
+2026-05-17,Shoes Model B,Black,M,2,24000
+2026-05-17,Shoes Model B,Blue,S,2,10000
+2026-05-17,Shoes Model B,Black,M,2,16000
+2026-05-17,Shoes Model B,White,M,2,16000
+2026-05-17,Shoes Model B,Black,L,2,24000
+2026-05-17,Shoes Model B,White,S,4,60000
+2026-05-18,Sandals C,Black,S,4,48000
+2026-05-18,Shoes Model A,White,L,3,45000
+2026-05-18,Shoes Model B,Black,L,4,60000
+2026-05-18,Sandals C,White,M,1,15000
+2026-05-18,Sandals C,Black,S,2,24000
+2026-05-18,Sandals C,Blue,M,2,16000
+2026-05-18,Shoes Model B,White,L,1,12000
+2026-05-18,Shoes Model A,White,S,3,36000
+2026-05-18,Shoes Model A,White,M,3,45000
+2026-05-18,Shoes Model A,White,M,4,60000
+2026-05-18,Sandals C,White,S,3,36000
+2026-05-18,Shoes Model A,Blue,M,2,10000
+2026-05-18,Shoes Model B,Black,S,2,30000
+2026-05-18,Shoes Model A,White,L,3,15000
+2026-05-18,Shoes Model B,White,L,4,60000
+2026-05-18,Sandals C,White,S,3,15000
+2026-05-18,Shoes Model A,Blue,S,1,8000
+2026-05-19,Shoes Model A,White,L,3,24000
+2026-05-19,Sandals C,Black,S,1,12000
+2026-05-19,Shoes Model A,Blue,S,2,24000
+2026-05-19,Sandals C,Black,L,3,24000
+2026-05-19,Shoes Model B,Black,M,1,15000
+2026-05-19,Shoes Model A,Black,L,2,30000
+2026-05-19,Shoes Model A,White,S,2,16000
+2026-05-19,Shoes Model A,Blue,M,3,36000
+2026-05-20,Shoes Model A,Black,M,1,5000
+2026-05-20,Shoes Model B,White,S,1,5000
+2026-05-20,Shoes Model A,Blue,L,1,12000
+2026-05-20,Shoes Model B,Blue,L,1,15000
+2026-05-20,Sandals C,Blue,L,3,24000
+2026-05-20,Shoes Model A,Black,M,4,48000
+2026-05-20,Shoes Model B,Blue,M,4,20000
+2026-05-20,Shoes Model A,Black,L,4,48000
+2026-05-20,Shoes Model B,White,S,3,45000
+2026-05-20,Shoes Model B,Blue,L,1,5000
+2026-05-20,Sandals C,Blue,L,4,48000
+2026-05-20,Shoes Model A,White,S,4,60000
+2026-05-20,Shoes Model B,Blue,M,1,5000
+2026-05-21,Shoes Model A,Blue,S,1,12000
+2026-05-21,Shoes Model B,Black,M,1,5000
+2026-05-21,Shoes Model A,Black,M,2,10000
+2026-05-21,Shoes Model A,White,L,3,24000
+2026-05-21,Shoes Model A,Black,L,4,48000
+2026-05-21,Shoes Model B,Blue,M,3,36000
+2026-05-21,Sandals C,Black,S,1,12000
+2026-05-21,Shoes Model B,White,M,2,10000
+2026-05-21,Shoes Model A,Blue,L,2,10000
+2026-05-21,Shoes Model B,Blue,L,2,30000
+2026-05-21,Sandals C,White,S,2,10000
+2026-05-22,Shoes Model A,Blue,L,3,24000
+2026-05-22,Shoes Model B,Blue,M,3,24000
+2026-05-22,Shoes Model A,Black,L,4,32000
+2026-05-22,Shoes Model B,Black,S,4,60000
+2026-05-22,Sandals C,Black,L,1,5000
+2026-05-22,Shoes Model B,Black,S,3,15000
+2026-05-22,Sandals C,Black,S,3,45000
+2026-05-22,Shoes Model B,Blue,L,3,24000
+2026-05-22,Shoes Model A,Blue,L,2,24000
+2026-05-22,Shoes Model A,White,S,1,8000
+2026-05-22,Sandals C,Black,S,1,5000
+2026-05-22,Shoes Model B,White,S,3,15000
+2026-05-23,Shoes Model A,Blue,S,3,45000
+2026-05-23,Shoes Model A,Black,L,2,24000
+2026-05-23,Shoes Model B,Black,L,3,45000
+2026-05-23,Sandals C,White,M,1,8000
+2026-05-23,Shoes Model B,Black,L,4,60000
+2026-05-23,Sandals C,Black,L,2,10000
+2026-05-23,Shoes Model A,Black,L,1,5000
+2026-05-23,Shoes Model A,Blue,M,4,20000
+2026-05-23,Shoes Model B,Blue,L,4,60000
+2026-05-23,Sandals C,Blue,M,1,15000
+2026-05-23,Sandals C,Blue,M,4,32000
+2026-05-23,Sandals C,Black,S,4,48000
+2026-05-23,Shoes Model B,Blue,L,2,30000
+2026-05-23,Sandals C,Blue,L,2,30000
+2026-05-23,Shoes Model A,Black,M,1,12000
+2026-05-23,Shoes Model A,Blue,S,2,10000
+2026-05-23,Shoes Model A,Black,M,1,8000
+2026-05-23,Sandals C,Black,M,2,30000
+2026-05-23,Shoes Model A,Blue,M,1,12000
+2026-05-24,Shoes Model B,Blue,L,4,20000
+2026-05-24,Shoes Model A,White,L,3,36000
+2026-05-24,Shoes Model B,Blue,L,4,32000
+2026-05-24,Shoes Model A,Black,M,3,24000
+2026-05-24,Shoes Model A,Black,M,2,10000
+2026-05-24,Shoes Model B,Black,M,2,16000
+2026-05-25,Shoes Model B,Black,S,2,16000
+2026-05-25,Shoes Model A,Black,L,1,15000
+2026-05-25,Sandals C,Blue,L,2,16000
+2026-05-25,Shoes Model A,Blue,M,4,60000
+2026-05-25,Shoes Model B,White,M,2,24000
+2026-05-25,Sandals C,Blue,L,1,12000
+2026-05-25,Shoes Model B,Blue,S,2,30000
+2026-05-25,Sandals C,Blue,L,2,16000
+2026-05-25,Shoes Model A,White,M,3,24000
+2026-05-26,Sandals C,White,S,1,15000
+2026-05-26,Shoes Model B,Black,L,4,48000
+2026-05-26,Shoes Model B,Black,S,3,24000
+2026-05-26,Shoes Model A,White,S,3,36000
+2026-05-26,Shoes Model B,Blue,S,3,45000
+2026-05-26,Shoes Model B,White,M,1,5000
+2026-05-26,Shoes Model A,Black,S,4,48000
+2026-05-26,Shoes Model A,Black,L,1,8000
+2026-05-26,Shoes Model A,Black,M,2,30000
+2026-05-26,Shoes Model B,White,S,2,16000
+2026-05-26,Sandals C,White,M,3,45000
+2026-05-26,Sandals C,Black,L,1,15000
+2026-05-26,Sandals C,Blue,S,3,15000
+2026-05-26,Sandals C,White,L,4,60000
+2026-05-26,Shoes Model A,Blue,S,1,8000
+2026-05-26,Shoes Model B,Black,L,1,5000
+2026-05-26,Sandals C,Blue,L,4,48000
+2026-05-26,Shoes Model A,Black,M,1,12000
+2026-05-26,Shoes Model B,Blue,S,2,24000
+2026-05-27,Shoes Model B,Black,L,4,32000
+2026-05-27,Shoes Model B,Blue,M,2,16000
+2026-05-27,Sandals C,Blue,L,3,15000
+2026-05-27,Shoes Model B,Blue,M,2,10000
+2026-05-27,Sandals C,Blue,M,4,48000
+2026-05-27,Shoes Model B,White,S,1,5000
+2026-05-27,Shoes Model B,Blue,S,3,15000
+2026-05-27,Shoes Model A,White,S,1,8000
+2026-05-27,Sandals C,Black,M,1,8000
+2026-05-27,Sandals C,Blue,M,2,30000
+2026-05-27,Shoes Model B,Blue,S,3,45000
+2026-05-27,Shoes Model B,White,L,2,30000
+2026-05-27,Sandals C,White,S,1,15000
+2026-05-27,Shoes Model B,Blue,S,3,24000
+2026-05-27,Sandals C,Black,L,3,24000
+2026-05-27,Shoes Model B,White,S,1,8000
+2026-05-27,Shoes Model B,Black,S,1,5000
+2026-05-27,Shoes Model B,Black,M,3,36000
+2026-05-28,Sandals C,Blue,L,4,20000
+2026-05-28,Shoes Model A,Blue,M,3,15000
+2026-05-28,Shoes Model A,Black,L,2,30000
+2026-05-28,Shoes Model A,Black,L,2,30000
+2026-05-28,Sandals C,Black,M,2,10000
+2026-05-28,Shoes Model B,White,L,4,20000
+2026-05-28,Shoes Model A,Black,S,1,8000
+2026-05-28,Sandals C,Black,L,3,24000
+2026-05-28,Shoes Model A,White,S,2,24000
+2026-05-28,Shoes Model A,Blue,L,2,10000
+2026-05-28,Sandals C,White,S,1,12000
+2026-05-28,Shoes Model A,Blue,S,4,32000
+2026-05-28,Sandals C,Blue,S,1,12000
+2026-05-28,Shoes Model A,White,S,2,30000
+2026-05-28,Shoes Model B,White,M,2,10000
+2026-05-28,Shoes Model B,Black,M,3,45000
+2026-05-28,Shoes Model B,Blue,M,2,16000
+2026-05-29,Sandals C,White,S,2,30000
+2026-05-29,Sandals C,White,L,3,36000
+2026-05-29,Shoes Model B,Blue,L,2,24000
+2026-05-29,Shoes Model B,Blue,S,1,12000
+2026-05-29,Shoes Model A,White,S,3,36000
+2026-05-29,Shoes Model B,Blue,M,1,5000
+2026-05-29,Shoes Model B,White,L,1,8000
+2026-05-29,Shoes Model A,White,S,4,48000
+2026-05-29,Shoes Model A,Black,S,4,20000
+2026-05-29,Shoes Model A,Blue,M,1,12000
+2026-05-29,Shoes Model A,Black,M,1,12000
+2026-05-29,Sandals C,White,S,3,15000
+2026-05-29,Shoes Model A,Black,M,1,12000
+2026-05-29,Shoes Model A,Blue,S,3,36000
+2026-05-29,Shoes Model A,Black,L,4,32000
+2026-05-29,Shoes Model A,White,S,4,60000
+2026-05-29,Shoes Model A,Black,S,2,30000
+2026-05-29,Shoes Model A,Blue,L,2,10000
+2026-05-29,Sandals C,White,S,3,36000

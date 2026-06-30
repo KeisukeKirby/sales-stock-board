@@ -1,0 +1,28 @@
+Product,Color,Size,Inventory_Count
+Shoes Model A,Black,S,65
+Shoes Model A,Black,M,40
+Shoes Model A,Black,L,44
+Shoes Model A,White,S,14
+Shoes Model A,White,M,2
+Shoes Model A,White,L,10
+Shoes Model A,Blue,S,52
+Shoes Model A,Blue,M,45
+Shoes Model A,Blue,L,29
+Shoes Model B,Black,S,56
+Shoes Model B,Black,M,17
+Shoes Model B,Black,L,50
+Shoes Model B,White,S,47
+Shoes Model B,White,M,65
+Shoes Model B,White,L,95
+Shoes Model B,Blue,S,7
+Shoes Model B,Blue,M,21
+Shoes Model B,Blue,L,5
+Sandals C,Black,S,75
+Sandals C,Black,M,56
+Sandals C,Black,L,35
+Sandals C,White,S,78
+Sandals C,White,M,91
+Sandals C,White,L,56
+Sandals C,Blue,S,48
+Sandals C,Blue,M,44
+Sandals C,Blue,L,81
