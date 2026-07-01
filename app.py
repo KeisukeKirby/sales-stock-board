@@ -8,10 +8,12 @@ st.set_page_config(page_title="Sales & Inventory Dashboard", layout="wide")
 
 st.title("📊 販売・在庫 実績分析ダッシュボード")
 
+# Initialize the SQLite Inventory DB
+dp.init_db("mock_inventory.csv")
+
 # Sidebar for file uploads
 st.sidebar.header("📂 データアップロード")
 sales_file = st.sidebar.file_uploader("販売実績CSVをアップロード", type=['csv'])
-inventory_file = st.sidebar.file_uploader("在庫実績CSVをアップロード", type=['csv'])
 
 # Default to mock data if files not provided
 if sales_file is not None:
@@ -23,13 +25,8 @@ else:
     except:
         df_sales = pd.DataFrame()
 
-if inventory_file is not None:
-    df_inventory = dp.load_and_preprocess_inventory(inventory_file)
-else:
-    try:
-        df_inventory = dp.load_and_preprocess_inventory("mock_inventory.csv")
-    except:
-        df_inventory = pd.DataFrame()
+# Load inventory from SQLite DB
+df_inventory = dp.get_inventory_from_db()
 
 if df_sales.empty:
     st.warning("販売データがありません。CSVをアップロードしてください。")
@@ -120,6 +117,24 @@ else:
             
     with tab4:
         st.subheader("在庫状況と予測")
+        
+        st.markdown("### 📝 在庫データの編集")
+        st.info("表のセルを直接クリックして数値を編集したり、一番下に行を追加できます。")
+        
+        # Interactive data editor for Inventory
+        edited_df = st.data_editor(
+            df_inventory,
+            num_rows="dynamic",
+            use_container_width=True,
+            key="inventory_editor"
+        )
+        
+        if st.button("💾 変更を保存"):
+            dp.update_inventory_db(edited_df)
+            st.success("在庫データをデータベースに保存しました！")
+            df_inventory = edited_df  # update local reference for plots
+        
+        st.divider()
         
         if not df_inventory.empty:
             st.write("現在の在庫レベル")

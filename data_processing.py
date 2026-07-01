@@ -1,5 +1,7 @@
 import pandas as pd
 import streamlit as st
+import sqlite3
+import os
 
 @st.cache_data
 def load_and_preprocess_sales(file):
@@ -50,3 +52,44 @@ def calculate_ratios(df, metric='Sales_Amount'):
     df_ratio = df.groupby('Product')[metric].sum().reset_index()
     df_ratio['Ratio'] = df_ratio[metric] / total * 100
     return df_ratio
+
+# --- SQLite Database Functions for Inventory ---
+
+DB_PATH = "inventory.db"
+
+def init_db(mock_csv_path="mock_inventory.csv"):
+    """
+    Initialize SQLite database and table.
+    If the table doesn't exist, seed it with data from mock_inventory.csv.
+    """
+    conn = sqlite3.connect(DB_PATH)
+    
+    # Check if table exists
+    cursor = conn.cursor()
+    cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='inventory';")
+    exists = cursor.fetchone()
+    
+    if not exists:
+        # Create table if it doesn't exist
+        if os.path.exists(mock_csv_path):
+            df = pd.read_csv(mock_csv_path)
+        else:
+            # Fallback empty dataframe if no mock csv
+            df = pd.DataFrame(columns=['Product', 'Color', 'Size', 'Inventory_Count'])
+            
+        df.to_sql("inventory", conn, if_exists="replace", index=False)
+        
+    conn.close()
+
+def get_inventory_from_db():
+    """Read inventory data from SQLite database."""
+    conn = sqlite3.connect(DB_PATH)
+    df = pd.read_sql("SELECT * FROM inventory", conn)
+    conn.close()
+    return df
+
+def update_inventory_db(df):
+    """Overwrite the entire inventory table with the updated dataframe."""
+    conn = sqlite3.connect(DB_PATH)
+    df.to_sql("inventory", conn, if_exists="replace", index=False)
+    conn.close()
