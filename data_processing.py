@@ -50,15 +50,21 @@ def load_and_preprocess_sales(file):
     df = df.rename(columns=col_mapping)
     
     # Ensure minimum required columns exist
-    required_cols = ['Date']
+    required_cols = ['Date', 'Sales_Amount', 'Sales_Quantity']
     missing = [c for c in required_cols if c not in df.columns]
     if missing:
-        # Provide a clear error message in the UI since Streamlit Cloud redacts ValueError tracebacks
         import streamlit as st
-        st.error(f"必須のカラム (Date) が見つかりません。アップロードされたファイルのカラム名: {list(df.columns)}")
+        st.error(f"必須のカラムが見つかりません。不足しているカラム: {missing}。\nアップロードされたファイルのカラム名: {list(df.columns)}")
         st.stop()
 
     df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+    
+    # Ensure numeric columns are properly converted
+    # Sometimes CSVs have commas in numbers, e.g. "1,000"
+    if df['Sales_Amount'].dtype == object:
+        df['Sales_Amount'] = df['Sales_Amount'].astype(str).str.replace(',', '').astype(float)
+    if df['Sales_Quantity'].dtype == object:
+        df['Sales_Quantity'] = df['Sales_Quantity'].astype(str).str.replace(',', '').astype(float)
     
     # Calculate Year, Month, Week for easy grouping
     df['YearMonth'] = df['Date'].dt.to_period('M').astype(str)
