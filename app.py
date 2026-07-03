@@ -64,7 +64,7 @@ else:
         freq_option = st.radio("集計単位", ["日別", "週別", "月別"], horizontal=True)
         freq_map = {"日別": "D", "週別": "W", "月別": "M"}
         
-        metric_option = st.selectbox("表示指標", ["売上金額 (Sales_Amount)", "売上個数 (Sales_Quantity)"])
+        metric_option = st.selectbox("表示指標", ["売上金額 (THB)", "売上個数"])
         metric_col = "Sales_Amount" if "金額" in metric_option else "Sales_Quantity"
         
         df_agg = dp.aggregate_sales(df_filtered, freq=freq_map[freq_option])
@@ -87,7 +87,11 @@ else:
     with tab2:
         st.subheader("商品別・カラー別・サイズ別 分析")
         
-        breakdown_level = st.multiselect("ブレイクダウンする項目を選択", ["Product", "Color", "Size"], default=["Product"])
+        breakdown_level = st.multiselect(
+            "ブレイクダウンする項目を選択 (追加すると詳細に分割されます)", 
+            ["Product_Line", "Color", "Size", "Product"], 
+            default=["Product_Line"]
+        )
         
         if breakdown_level:
             df_breakdown = dp.get_product_breakdown(df_filtered, breakdown_level)
@@ -99,15 +103,16 @@ else:
             st.plotly_chart(fig_bar, use_container_width=True)
             
     with tab3:
-        st.subheader("商品別売上比率")
+        st.subheader("商品ライン別売上比率")
         
         col1, col2 = st.columns(2)
         
-        df_ratio_amt = dp.calculate_ratios(df_filtered, 'Sales_Amount')
-        fig_pie_amt = viz.plot_pie_chart(df_ratio_amt, 'Product', 'Sales_Amount', '売上金額ベース比率')
+        # We also need to group by Product_Line for the pie charts in tab3
+        df_ratio_amt = dp.calculate_ratios(df_filtered.rename(columns={'Product_Line': 'Product'}), 'Sales_Amount')
+        fig_pie_amt = viz.plot_pie_chart(df_ratio_amt, 'Product', 'Sales_Amount', '売上金額 (THB) 比率')
         
-        df_ratio_qty = dp.calculate_ratios(df_filtered, 'Sales_Quantity')
-        fig_pie_qty = viz.plot_pie_chart(df_ratio_qty, 'Product', 'Sales_Quantity', '売上個数ベース比率')
+        df_ratio_qty = dp.calculate_ratios(df_filtered.rename(columns={'Product_Line': 'Product'}), 'Sales_Quantity')
+        fig_pie_qty = viz.plot_pie_chart(df_ratio_qty, 'Product', 'Sales_Quantity', '売上個数 比率')
         
         with col1:
             st.plotly_chart(fig_pie_amt, use_container_width=True)
