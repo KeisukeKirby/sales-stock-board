@@ -36,8 +36,10 @@ def load_and_preprocess_sales(file):
     required_cols = ['Date']
     missing = [c for c in required_cols if c not in df.columns]
     if missing:
-        # Provide a clear error message that will be shown in the traceback
-        raise ValueError(f"必須のカラム (Date) が見つかりません。アップロードされたファイルのカラム名: {list(df.columns)}")
+        # Provide a clear error message in the UI since Streamlit Cloud redacts ValueError tracebacks
+        import streamlit as st
+        st.error(f"必須のカラム (Date) が見つかりません。アップロードされたファイルのカラム名: {list(df.columns)}")
+        st.stop()
 
     df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
     
