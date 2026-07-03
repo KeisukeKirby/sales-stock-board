@@ -24,7 +24,7 @@ def load_and_preprocess_sales(file):
     # --- Header Auto-Detection ---
     # Some EC platforms export CSVs with a category header on row 1 (Orders, Product data, etc.)
     # and the actual columns on row 2. We search for the real header if 'Date' or equivalent is missing.
-    date_keywords = ['Date', '日付', '受注日', '売上日', 'order_date', 'Order Date', 'Date/Time', '注文日時', '注文日']
+    date_keywords = ['Date', '日付', '受注日', '売上日', 'order_date', 'Order Date', 'Date/Time', '注文日時', '注文日', 'Created at']
     if not any(k in df.columns for k in date_keywords):
         for i in range(min(10, len(df))):
             row_vals = [str(x).strip() for x in df.iloc[i].values]
@@ -36,21 +36,32 @@ def load_and_preprocess_sales(file):
                 df.columns = [str(c).strip() for c in df.columns]
                 break
 
-    # Common English and Japanese column names mapping
-    col_mapping = {
-        '日付': 'Date', '受注日': 'Date', '売上日': 'Date', 'order_date': 'Date', 'Order Date': 'Date', 'Date/Time': 'Date', '注文日時': 'Date', '注文日': 'Date', 'Created at': 'Date',
-        '商品名': 'Product', 'アイテム': 'Product', 'product_name': 'Product', 'Product Name': 'Product', 'Lineitem name': 'Product', 'Product name': 'Product',
-        'カラー': 'Color', '色': 'Color', 'color': 'Color',
-        'サイズ': 'Size', 'size': 'Size',
-        '数量': 'Sales_Quantity', '売上数量': 'Sales_Quantity', '個数': 'Sales_Quantity', 'quantity': 'Sales_Quantity', 'Quantity': 'Sales_Quantity', 'Lineitem quantity': 'Sales_Quantity',
-        '金額': 'Sales_Amount', '売上金額': 'Sales_Amount', '販売価格': 'Sales_Amount', 'amount': 'Sales_Amount', 'Amount': 'Sales_Amount', 'price': 'Sales_Amount', 'Price': 'Sales_Amount', '合計': 'Sales_Amount', 'Total': 'Sales_Amount', 'Lineitem price': 'Sales_Amount', 'Subtotal': 'Sales_Amount', 'Total amount': 'Sales_Amount'
+    # Robust column mapping using priority lists to avoid duplicate column names
+    target_mappings = {
+        'Date': ['Date', '日付', '受注日', '売上日', 'order_date', 'Order Date', 'Date/Time', '注文日時', '注文日', 'Created at'],
+        'Product': ['Product name', 'Product Name', 'Lineitem name', '商品名', 'アイテム', 'product_name', 'Product'],
+        'Color': ['Color', 'カラー', '色', 'color'],
+        'Size': ['Size', 'サイズ', 'size'],
+        'Sales_Quantity': ['Sales_Quantity', 'Quantity', 'Lineitem quantity', '数量', '売上数量', '個数', 'quantity'],
+        'Sales_Amount': ['Total amount', 'Amount', 'Total', 'Subtotal', 'Lineitem price', '売上金額', '金額', '販売価格', '合計', 'price', 'Price', 'amount']
     }
-    
-    # Rename columns that match the mapping
-    df = df.rename(columns=col_mapping)
-    
+
+    # Apply mapping
+    for target, sources in target_mappings.items():
+        if target not in df.columns:
+            for src in sources:
+                if src in df.columns:
+                    df = df.rename(columns={src: target})
+                    break
+
+    # Add missing optional columns to prevent errors in UI
+    if 'Color' not in df.columns:
+        df['Color'] = 'N/A'
+    if 'Size' not in df.columns:
+        df['Size'] = 'N/A'
+
     # Ensure minimum required columns exist
-    required_cols = ['Date', 'Sales_Amount', 'Sales_Quantity']
+    required_cols = ['Date', 'Product', 'Sales_Amount', 'Sales_Quantity']
     missing = [c for c in required_cols if c not in df.columns]
     if missing:
         import streamlit as st
@@ -62,9 +73,9 @@ def load_and_preprocess_sales(file):
     # Ensure numeric columns are properly converted
     # Sometimes CSVs have commas in numbers, e.g. "1,000"
     if df['Sales_Amount'].dtype == object:
-        df['Sales_Amount'] = df['Sales_Amount'].astype(str).str.replace(',', '').astype(float)
+        df['Sales_Amount'] = df['Sales_Amount'].astype(str).str.replace(',', '').str.replace(' ', '').astype(float)
     if df['Sales_Quantity'].dtype == object:
-        df['Sales_Quantity'] = df['Sales_Quantity'].astype(str).str.replace(',', '').astype(float)
+        df['Sales_Quantity'] = df['Sales_Quantity'].astype(str).str.replace(',', '').str.replace(' ', '').astype(float)
     
     # Calculate Year, Month, Week for easy grouping
     df['YearMonth'] = df['Date'].dt.to_period('M').astype(str)
