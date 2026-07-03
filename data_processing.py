@@ -39,11 +39,11 @@ def load_and_preprocess_sales(file):
     # Common English and Japanese column names mapping
     col_mapping = {
         '日付': 'Date', '受注日': 'Date', '売上日': 'Date', 'order_date': 'Date', 'Order Date': 'Date', 'Date/Time': 'Date', '注文日時': 'Date', '注文日': 'Date', 'Created at': 'Date',
-        '商品名': 'Product', 'アイテム': 'Product', 'product_name': 'Product', 'Product Name': 'Product', 'Lineitem name': 'Product',
+        '商品名': 'Product', 'アイテム': 'Product', 'product_name': 'Product', 'Product Name': 'Product', 'Lineitem name': 'Product', 'Product name': 'Product',
         'カラー': 'Color', '色': 'Color', 'color': 'Color',
         'サイズ': 'Size', 'size': 'Size',
         '数量': 'Sales_Quantity', '売上数量': 'Sales_Quantity', '個数': 'Sales_Quantity', 'quantity': 'Sales_Quantity', 'Quantity': 'Sales_Quantity', 'Lineitem quantity': 'Sales_Quantity',
-        '金額': 'Sales_Amount', '売上金額': 'Sales_Amount', '販売価格': 'Sales_Amount', 'amount': 'Sales_Amount', 'price': 'Sales_Amount', 'Price': 'Sales_Amount', '合計': 'Sales_Amount', 'Total': 'Sales_Amount', 'Lineitem price': 'Sales_Amount', 'Subtotal': 'Sales_Amount'
+        '金額': 'Sales_Amount', '売上金額': 'Sales_Amount', '販売価格': 'Sales_Amount', 'amount': 'Sales_Amount', 'Amount': 'Sales_Amount', 'price': 'Sales_Amount', 'Price': 'Sales_Amount', '合計': 'Sales_Amount', 'Total': 'Sales_Amount', 'Lineitem price': 'Sales_Amount', 'Subtotal': 'Sales_Amount', 'Total amount': 'Sales_Amount'
     }
     
     # Rename columns that match the mapping
