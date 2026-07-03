@@ -19,7 +19,27 @@ def load_and_preprocess_sales(file):
                 file.seek(0)
             df = pd.read_csv(file, encoding='utf-8-sig', errors='replace')
 
-    df['Date'] = pd.to_datetime(df['Date'])
+    # Common Japanese column names mapping
+    col_mapping = {
+        '日付': 'Date', '受注日': 'Date', '売上日': 'Date', 'order_date': 'Date',
+        '商品名': 'Product', 'アイテム': 'Product', 'product_name': 'Product',
+        'カラー': 'Color', '色': 'Color', 'color': 'Color',
+        'サイズ': 'Size', 'size': 'Size',
+        '数量': 'Sales_Quantity', '売上数量': 'Sales_Quantity', '個数': 'Sales_Quantity', 'quantity': 'Sales_Quantity',
+        '金額': 'Sales_Amount', '売上金額': 'Sales_Amount', '販売価格': 'Sales_Amount', 'amount': 'Sales_Amount', 'price': 'Sales_Amount'
+    }
+    
+    # Rename columns that match the mapping
+    df = df.rename(columns=col_mapping)
+    
+    # Ensure minimum required columns exist
+    required_cols = ['Date']
+    missing = [c for c in required_cols if c not in df.columns]
+    if missing:
+        # Provide a clear error message that will be shown in the traceback
+        raise ValueError(f"必須のカラム (Date) が見つかりません。アップロードされたファイルのカラム名: {list(df.columns)}")
+
+    df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
     
     # Calculate Year, Month, Week for easy grouping
     df['YearMonth'] = df['Date'].dt.to_period('M').astype(str)
