@@ -5,7 +5,20 @@ import os
 
 @st.cache_data
 def load_and_preprocess_sales(file):
-    df = pd.read_csv(file)
+    try:
+        if hasattr(file, 'seek'):
+            file.seek(0)
+        df = pd.read_csv(file, encoding='utf-8')
+    except UnicodeDecodeError:
+        try:
+            if hasattr(file, 'seek'):
+                file.seek(0)
+            df = pd.read_csv(file, encoding='cp932')
+        except UnicodeDecodeError:
+            if hasattr(file, 'seek'):
+                file.seek(0)
+            df = pd.read_csv(file, encoding='utf-8-sig', errors='replace')
+
     df['Date'] = pd.to_datetime(df['Date'])
     
     # Calculate Year, Month, Week for easy grouping
