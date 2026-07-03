@@ -71,11 +71,16 @@ def load_and_preprocess_sales(file):
     df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
     
     # Ensure numeric columns are properly converted
-    # Sometimes CSVs have commas in numbers, e.g. "1,000"
-    if df['Sales_Amount'].dtype == object:
-        df['Sales_Amount'] = df['Sales_Amount'].astype(str).str.replace(',', '').str.replace(' ', '').astype(float)
-    if df['Sales_Quantity'].dtype == object:
-        df['Sales_Quantity'] = df['Sales_Quantity'].astype(str).str.replace(',', '').str.replace(' ', '').astype(float)
+    # Remove commas, spaces, and currency symbols, then force to numeric
+    df['Sales_Amount'] = pd.to_numeric(
+        df['Sales_Amount'].astype(str).str.replace(r'[^\d.-]', '', regex=True), 
+        errors='coerce'
+    ).fillna(0.0)
+    
+    df['Sales_Quantity'] = pd.to_numeric(
+        df['Sales_Quantity'].astype(str).str.replace(r'[^\d.-]', '', regex=True), 
+        errors='coerce'
+    ).fillna(0.0)
     
     # Calculate Year, Month, Week for easy grouping
     df['YearMonth'] = df['Date'].dt.to_period('M').astype(str)
