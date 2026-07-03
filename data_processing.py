@@ -18,15 +18,32 @@ def load_and_preprocess_sales(file):
             if hasattr(file, 'seek'):
                 file.seek(0)
             df = pd.read_csv(file, encoding='utf-8-sig', errors='replace')
+    # Ensure column names are strings
+    df.columns = [str(c).strip() for c in df.columns]
+
+    # --- Header Auto-Detection ---
+    # Some EC platforms export CSVs with a category header on row 1 (Orders, Product data, etc.)
+    # and the actual columns on row 2. We search for the real header if 'Date' or equivalent is missing.
+    date_keywords = ['Date', '日付', '受注日', '売上日', 'order_date', 'Order Date', 'Date/Time', '注文日時', '注文日']
+    if not any(k in df.columns for k in date_keywords):
+        for i in range(min(10, len(df))):
+            row_vals = [str(x).strip() for x in df.iloc[i].values]
+            if any(k in row_vals for k in date_keywords):
+                df.columns = df.iloc[i]
+                # Drop all rows up to and including the header row
+                df = df[i+1:].reset_index(drop=True)
+                # Ensure column names are strings again
+                df.columns = [str(c).strip() for c in df.columns]
+                break
 
     # Common Japanese column names mapping
     col_mapping = {
-        '日付': 'Date', '受注日': 'Date', '売上日': 'Date', 'order_date': 'Date',
-        '商品名': 'Product', 'アイテム': 'Product', 'product_name': 'Product',
+        '日付': 'Date', '受注日': 'Date', '売上日': 'Date', 'order_date': 'Date', 'Order Date': 'Date', 'Date/Time': 'Date', '注文日時': 'Date', '注文日': 'Date',
+        '商品名': 'Product', 'アイテム': 'Product', 'product_name': 'Product', 'Product Name': 'Product',
         'カラー': 'Color', '色': 'Color', 'color': 'Color',
         'サイズ': 'Size', 'size': 'Size',
-        '数量': 'Sales_Quantity', '売上数量': 'Sales_Quantity', '個数': 'Sales_Quantity', 'quantity': 'Sales_Quantity',
-        '金額': 'Sales_Amount', '売上金額': 'Sales_Amount', '販売価格': 'Sales_Amount', 'amount': 'Sales_Amount', 'price': 'Sales_Amount'
+        '数量': 'Sales_Quantity', '売上数量': 'Sales_Quantity', '個数': 'Sales_Quantity', 'quantity': 'Sales_Quantity', 'Quantity': 'Sales_Quantity',
+        '金額': 'Sales_Amount', '売上金額': 'Sales_Amount', '販売価格': 'Sales_Amount', 'amount': 'Sales_Amount', 'price': 'Sales_Amount', 'Price': 'Sales_Amount', '合計': 'Sales_Amount', 'Total': 'Sales_Amount'
     }
     
     # Rename columns that match the mapping
